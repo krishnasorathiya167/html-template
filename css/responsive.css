@@ -1,0 +1,182 @@
+@media(max-width:992px){
+    .banner .banner-data h1{
+        font-size: 80px;
+        line-height: 80px;
+    }
+    .banner .explore{
+        padding: 20px;
+    }
+    .banner .explore a{
+        font-size: 20px;
+    }
+    .project,
+    .testimonial{
+        padding: 120px 0;
+    }
+    .services,
+    .blog{
+        padding-bottom: 120px;
+    }
+    .testimonial .testimonial-card{
+        height: 100%;
+        padding: 20px;
+    }
+    .testimonial .row .col-md-4{
+        padding: 0 10px;
+    }
+    .testimonial .row{
+        margin: 0 -10px;
+    }
+    .blog .blog-card h5{
+        font-size: 22px;
+    }
+    footer .footer-left{
+        padding-top: 40px;
+    }
+    footer .footer-left .webflow{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    footer .footer-left .webflow p{
+        justify-content: center;
+    }
+    footer .footer-list{
+        margin-right: 50px;
+    }
+}
+
+@media(max-width:768px){
+    .banner .banner-data h1{
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .banner .banner-par p{
+        font-size: 20px;
+    }
+    .banner .explore{
+        padding: 16px;
+    }
+    .banner .explore a{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .future,.project{
+        padding: 100px 0;
+    }
+    .project,
+    .testimonial{
+        padding: 100px 0;
+    }
+    .future .future-btn{
+        margin-top: 30px;
+    }
+    .container .common-heading h2{
+        font-size: 32px;
+    }  
+    .services,
+    .blog{
+        padding-bottom: 100px;
+    }
+    .choose .choose-data p{
+        font-size: 18px;
+    }
+    .project .partner{
+        padding: 30px;
+    }
+    .project .partner h2{
+        font-size: 32px;
+    }
+    .choose .choose-data i{
+        height: 25px;
+        width: 25px;
+        font-size: 12px;
+    }
+    .testimonial .testimonial-card .card-img p{
+        font-size: 18px;
+    }
+    footer .footer-left{
+        max-width: 100%;
+    }
+    footer .footer-img{
+        display: none;
+    }
+    footer .footer-list{
+        margin-right: 20px;
+    }
+    footer .footer-left .webflow{
+        justify-content: center;
+    }
+}
+
+@media(max-width:576px){
+    .services .common-btn{
+        margin-top: 20px;
+    }
+    .services,
+    .blog{
+        padding-bottom: 80px;
+    }
+    .project,
+    .testimonial{
+        padding: 80px 0;
+    }
+    .blog .blog-card h5{
+        font-size: 20px;
+    }
+}
+
+@media(max-width:478px){
+    .banner .banner-data h1{
+        font-size: 42px;
+        line-height: 45px;
+    }
+    .banner .banner-par p{
+        font-size: 20px;
+    }
+    .banner .banner-par .line{
+        max-width: 115px;
+    }
+    .banner .explore{
+        padding: 10px;
+    }
+    .banner .explore a{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .container .common-heading h2{
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .project .partner{
+        padding: 20px;
+    }
+    .project .partner h2{
+        font-size: 28px;
+    }
+    .choose .choose-data:last-child i,
+    .choose .choose-data:nth-last-child(2) i{
+        width: 30px;
+    }
+    .testimonial .testimonial-card .card-img p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .testimonial .testimonial-btn .btn{
+        display: none;
+    }
+    .testimonial .testimonial-button .btn{
+        display: block;
+    }  
+}
+@media(max-width:414px){
+    .choose .choose-data:last-child i,
+    .choose .choose-data:nth-last-child(2) i{
+        width: 35px;
+    }
+}
+@media(max-width:365px){
+    .choose .choose-data:last-child i,
+    .choose .choose-data:nth-last-child(2) i{
+        width: 40px;
+    }
+}
